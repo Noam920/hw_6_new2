@@ -7,6 +7,7 @@ bool del_car( Car * curr){
     FREE(curr->model);
     FREE(curr->color);
     FREE(curr);
+     /*test git 1111*/
     return true;
 }
 
